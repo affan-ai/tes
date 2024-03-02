@@ -1,0 +1,142 @@
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #ffffff;
+  padding: 10px 20px;
+  z-index: 1000;
+}
+
+.logo img {
+  max-width: 50px;
+}
+
+.navbar {
+  list-style: none;
+  display: flex;
+}
+
+.navbar li {
+  margin-right: 40px;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: #000000;
+}
+
+/* section {
+  margin: 80px 20px;
+} */
+
+#home {
+  height: 100vh; /* Set height to full viewport height */
+  background-image: url('assets/bg.jpg') ;
+  /* background-color: aqua; */
+  background-size: cover;
+  position: relative;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+#about {
+  height: 70vh; /* Set height to full viewport height */
+  position: relative;
+  padding: 30px;
+}
+
+#pendidikan {
+  height: 50vh; /* Set height to full viewport height */
+  position: relative;
+  padding: 30px;
+  /* margin: 30px; */
+  background-image: url('assets/pendidikan.jpg') ;
+  background-size: cover;
+}
+
+#social {
+  height: 30vh; /* Set height to full viewport height */
+  position: relative;
+  margin: 30px;
+}
+
+.home-content {
+  /* transform: translate(-50%, -50%); */
+  /* position: absolute; */
+}
+
+.home-content p {
+  color: #37ff00;
+  font-size: 50px;
+  text-align: center;
+}
+
+.card {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.data-diri {
+  width: 50%;
+}
+
+
+
+.about-card {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  padding: 20px;
+  border-radius: 8px;
+  display: flex;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+td {
+  padding: 10px;
+  text-align: left;
+}
+
+.education-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.education-card {
+  width: 30%;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  margin-left: 15px;
+  margin-right: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Menengahkan vertikal */
+  align-items: center; /* Menengahkan horizontal */
+}
+
+
+.social-media img {
+  max-width: 30px;
+  margin-right: 10px;
+}
